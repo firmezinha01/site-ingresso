@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 130px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+input,
+button {
+    padding: 0.75rem;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #ff6600;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#btn {
+    margin-right: 350px;
+}
+
+.btn-pesquisar input {
+    width: 500px;
+    height: 45px;
+    text-align: center;
+    font-size: 17px;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+li:hover {
+    transform: translateY(-4px);
+}
+
+li {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+main {
+    padding: 20px;
+}
+
+#ingressos {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+.ingresso {
+display: flex;
+margin-left: 10px;
+gap: 15px;
+color: rgb(58, 57, 57);
+}
+
+.ingressos {
+    width: 290px;
+    height: 550px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.ingressos img {
+    width: 290px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+h1 {
+    font-size: 17px;
+    padding: 15px;
+    margin-right: 13px;
+}
+
+.cliente_funcoes {
+    text-align: start;
+    font-size: 11px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+h2 {
+    padding: 10px;
+    color: #ff6600;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: rgb(185, 185, 185);
+    margin-top: 2rem;
+}
