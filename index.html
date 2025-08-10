@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Busque Ingresso</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
         <img class="Logo" src="img/Logo Busque.png" alt="Logo do Site">
 
@@ -18,12 +19,13 @@
 
         <nav>
             <ul>
-                <a href="http://127.0.0.1:5501/criar_evento/criar_evento.html"><li>Criar evento</li></a>
-                <a href="http://127.0.0.1:5501/meus_eventos/meus_eventos.html"><li>Meus eventos</li></a>
-                <a href="http://127.0.0.1:5501/meus_ingressos/meus_ingressos.html"><li>Meus ingressos</li></a>
-                <a href="http://127.0.0.1:5501/cadastro/cadastro.html"><li>Cadastro</li></a>
+                <li><a href="#" onclick="criarEventos()">Criar eventos</a></li>
+                <li><a href="#" onclick="meusEventos()">Meus eventos</a></li>
+                <li><a href="#" onclick="meusIngressos()">Meus Ingressos</a></li>
+                <li><a href="#" onclick="cadastro()">Cadastro</a></li>
             </ul>
         </nav>
+
     </header>
 
     <div class="btn-show">
@@ -33,10 +35,10 @@
         <button class="botao" onclick="scrollToSection('esporte')">Esporte</button>
     </div>
 
-    <section class="explorar" class="eventos">
+    <section class="eventos">
         <h1>Eventos em Destaque</h1>
         <div class="evento-lista">
-            <div class="evento" onclick="mostrarDetalhes('evento1')">
+            <div class="evento">
                 <img src="img/show da banda.jpeg" alt="" class="evento-destaque">
                 <h2>Show da Banda</h2>
                 <p>Guarulhos/SP</p>
@@ -44,7 +46,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento2')">
+            <div class="evento">
                 <img src="img/feira de tecnologia.jpeg" alt="" class="evento-destaque">
                 <h2>Feira de Tecnologia</h2>
                 <p>São Paulo/SP</p>
@@ -52,7 +54,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento3')">
+            <div class="evento">
                 <img src="img/patrulha caniana.jpeg" alt="" class="evento-destaque">
                 <h2>Show Patrulha Canina</h2>
                 <p>São Paulo/SP</p>
@@ -60,7 +62,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento4')">
+            <div class="evento">
                 <img src="img/feira de negocios.jpeg" alt="" class="evento-destaque">
                 <h2>Feira de Negócios</h2>
                 <p>São Paulo/SP</p>
@@ -68,7 +70,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento5')">
+            <div class="evento">
                 <img src="img/frank aguiar.jpeg" alt="" class="evento-destaque">
                 <h2>Show Frank Aguiar</h2>
                 <p>São Paulo/SP</p>
@@ -78,10 +80,10 @@
         </div>
     </section>
 
-    <section class="explorar" class="eventos">
+    <section class="eventos">
         <h1>Festas e shows</h1>
         <div class="evento-lista">
-            <div class="evento" onclick="mostrarDetalhes('evento1')">
+            <div class="evento">
                 <img src="img/so track boa.jpeg" alt="" class="evento-destaque">
                 <h2>Só Track Boa Festival</h2>
                 <p>São Paulo</p>
@@ -89,7 +91,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento2')">
+            <div class="evento">
                 <img src="img/tribe.jpeg" alt="" class="evento-destaque">
                 <h2>Tribe</h2>
                 <p>São Paulo</p>
@@ -97,7 +99,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento3')">
+            <div class="evento">
                 <img src="img/playground.jpeg" alt="" class="evento-destaque">
                 <h2>Playground</h2>
                 <p>São Paulo</p>
@@ -105,7 +107,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento4')">
+            <div class="evento">
                 <img src="img/xxxperience.jpeg" alt="" class="evento-destaque">
                 <h2>Xxxperience</h2>
                 <p>São Paulo</p>
@@ -113,7 +115,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento5')">
+            <div class="evento">
                 <img src="img/festival eletronico.jpeg" alt="" class="evento-destaque">
                 <h2>Festival Eletrônico</h2>
                 <p>São Paulo</p>
@@ -123,10 +125,10 @@
         </div>
     </section>
 
-    <section class="explorar" class="eventos">
+    <section class="eventos">
         <h1>Eventos esportivos</h1>
         <div class="evento-lista">
-            <div class="evento" onclick="mostrarDetalhes('evento1')">
+            <div class="evento">
                 <img src="img/player off the week.jpeg" alt="" class="evento-destaque">
                 <h2>Player off the Week</h2>
                 <p>São Paulo</p>
@@ -134,7 +136,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento2')">
+            <div class="evento">
                 <img src="img/surfe.jpeg" alt="" class="evento-destaque">
                 <h2>Surfe</h2>
                 <p>Ubatuba</p>
@@ -142,7 +144,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento3')">
+            <div class="evento">
                 <img src="img/futebol.jpeg" alt="" class="evento-destaque">
                 <h2>Futebol</h2>
                 <p>São Paulo</p>
@@ -150,7 +152,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento4')">
+            <div class="evento">
                 <img src="img/skste.jpeg" alt="" class="evento-destaque">
                 <h2>Skate</h2>
                 <p>São Paulo</p>
@@ -158,7 +160,7 @@
                 <button class="btn-compra" onclick="comprarIngresso()">Comprar Ingresso</button>
             </div>
 
-            <div class="evento" onclick="mostrarDetalhes('evento5')">
+            <div class="evento">
                 <img src="img/voleibol.jpeg" alt="" class="evento-destaque">
                 <h2>Voleibol</h2>
                 <p>São Paulo</p>
