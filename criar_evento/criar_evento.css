@@ -86,3 +86,11 @@
      color: rgb(185, 185, 185);
      margin-top: 2rem;
  }
+
+ /* 📱 Mobile adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
