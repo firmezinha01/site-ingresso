@@ -134,8 +134,92 @@ footer {
 
 /* 📱 Mobile adjustments */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .container-criar-eventos {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .criar-evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-criar-eventos button {
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  .container-meus-eventos {
+    width: 90%;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .meus-eventos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h4 {
+    padding-right: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}

@@ -149,8 +149,84 @@ footer {
 
 /* 📱 Mobile adjustments */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .btn-pesquisar {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .btn-pesquisar input {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  #ingressos {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  div ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10px;
+  }
+
+  .ingresso {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .ingressos {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .ingressos img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+
+  h1 {
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 0;
+  }
+
+  .cliente_funcoes {
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
 }
