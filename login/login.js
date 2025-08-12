@@ -9,3 +9,6 @@ function cadastreSe() {
   window.location.href = "/cadastro/cadastro.html";
 }
 
+function clicarLogo() {
+    window.location.href = "/index.html";
+}
