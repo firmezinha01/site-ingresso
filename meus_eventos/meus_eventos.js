@@ -1,4 +1,4 @@
-function comprarMaisIngressos() {
+function acompanhe() {
     window.location.href = "/index.html";
 }
 
